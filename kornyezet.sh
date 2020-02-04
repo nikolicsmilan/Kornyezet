@@ -28,7 +28,11 @@ read var_year
 sudo apt-get install
 echo Nyomj entert a folytatáshoz Ez lesz: sudo apt-get install \ apt-transport-https \ ca-certificates \ curl \ gnupg-agent \ software-properties-common
 read var_year
-sudo apt-get install apt-transport-https ca-certificates curl gnupg-agent software-properties-common
+sudo apt-get install apt-transport-https 
+sudo apt-get install ca-certificates
+sudo apt-get install curl
+sudo ap-get install gnupg-agent 
+sudo apt-get install software-properties-common
 echo Nyomj entert a folytatáshoz Ez lesz: curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add –
 read var_year
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add –
