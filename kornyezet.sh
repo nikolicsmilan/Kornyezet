@@ -65,7 +65,7 @@ read var_year
 sudo chmod +x /usr/local/bin/docker-compose
 echo Nyomj entert a folytatáshoz Ez lesz: docker-compose –version
 read var_year
-docker-compose –version
+docker-compose "–version"
 echo Nyomj entert a folytatáshoz Ez lesz:mkdir projects
 read var_year
 mkdir projects
@@ -74,7 +74,7 @@ read var_year
 cd /projects
 echo Nyomj entert a folytatáshoz Ez lesz: sudo fallocate -l 2G /swapfile
 read var_year
-sudo fallocate -l 2G /swapfile
+sudo fallocate "-l" 2G /swapfile
 echo Nyomj entert a folytatáshoz Ez lesz: 
 read var_year
 echo Nyomj entert a folytatáshoz Ez lesz: sudo chmod 600 /swapfile
@@ -88,4 +88,4 @@ read var_year
 sudo swapon /swapfile
 echo Nyomj entert a folytatáshoz Ez lesz: sudo swapon –show
 read var_year
-sudo swapon –show
+sudo swapon "–show"
