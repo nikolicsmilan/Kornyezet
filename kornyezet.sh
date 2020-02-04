@@ -1,6 +1,6 @@
 #!bin/bash
 sudo apt update
-read -p "Press enter to continue"
+read -p "Press any key to continue... " -n1 -s
 sudo apt install nodejs
 sudo apt install npm
 nodejs -v
