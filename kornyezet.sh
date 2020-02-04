@@ -1,5 +1,6 @@
 #!bin/bash
 sudo apt update
+read -p "Press enter to continue"
 sudo apt install nodejs
 sudo apt install npm
 nodejs -v
