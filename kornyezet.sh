@@ -36,8 +36,8 @@ sudo apt-get install software-properties-common
 echo Nyomj entert a folytatáshoz Ez lesz: curl -fsSL 
 read var_year
 curl "-fsSL" https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add "-"
-read var_year
 echo Nyomj entert a folytatáshoz Ez lesz: sudo apt-key fingerprint 0EBFCD88
+read var_year
 sudo apt-key fingerprint 0EBFCD88
 echo Nyomj entert a folytatáshoz Ez lesz: sudo add-apt-repository \
  "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
@@ -59,11 +59,11 @@ read var_year
 sudo docker run hello-world
 echo Nyomj entert a folytatáshoz Ez lesz: sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/dockercompose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
 read var_year
-sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/dockercompose-$(uname -s)-$(uname -m)" -o /usr/local/bin/docker-compose
+sudo curl "-L" "https://github.com/docker/compose/releases/download/1.25.0/dockercompose-$(uname -s)-$(uname -m)" "-o" /usr/local/bin/docker-compose
 echo Nyomj entert a folytatáshoz Ez lesz:sudo chmod +x /usr/local/bin/docker-compose 
 read var_year
 sudo chmod +x /usr/local/bin/docker-compose
-echo Nyomj entert a folytatáshoz Ez lesz: docker-compose –version
+echo Nyomj entert a folytatáshoz Ez lesz: docker-compose "–version"
 read var_year
 docker-compose "–version"
 echo Nyomj entert a folytatáshoz Ez lesz:mkdir projects
