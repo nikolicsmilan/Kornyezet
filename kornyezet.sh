@@ -35,7 +35,7 @@ sudo ap-get install gnupg-agent
 sudo apt-get install software-properties-common
 echo Nyomj entert a folytatáshoz Ez lesz: curl -fsSL 
 read var_year
-curl "-fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add –"
+curl "-fsSL" https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add "-"
 read var_year
 echo Nyomj entert a folytatáshoz Ez lesz: sudo apt-key fingerprint 0EBFCD88
 sudo apt-key fingerprint 0EBFCD88
