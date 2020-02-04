@@ -33,7 +33,7 @@ sudo apt-get install ca-certificates
 sudo apt-get install curl
 sudo ap-get install gnupg-agent 
 sudo apt-get install software-properties-common
-echo Nyomj entert a folytatáshoz Ez lesz: curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add –
+echo Nyomj entert a folytatáshoz Ez lesz: curl -fsSL 
 read var_year
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add –
 read var_year
