@@ -1,7 +1,11 @@
 #!bin/bash
+echo Nyomj entert a folytatáshoz! Ez lesz: sudo apt update
+read var_year
 sudo apt update
+echo Nyomj entert a folytatáshoz Ez lesz: sudo apt install nodejs
 read var_year
 sudo apt install nodejs
+echo Nyomj entert a folytatáshoz Ez lesz: sudo apt install npm
 read var_year
 sudo apt install npm
 read var_year
