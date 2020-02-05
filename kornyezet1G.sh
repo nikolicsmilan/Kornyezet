@@ -34,7 +34,7 @@ sudo apt-get install ca-certificates
 sudo apt-get install curl
 sudo ap-get install gnupg-agent 
 sudo apt-get install software-properties-common
-echo Ez lesz: curl "-fsSL" https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add "-"
+echo Ez lesz: curl "-fsSL" https://download.docker...
 read var_year
 curl "-fsSL" https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add "-"
 echo  Ez lesz: sudo apt-key fingerprint 0EBFCD88
