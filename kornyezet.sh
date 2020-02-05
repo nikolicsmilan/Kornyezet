@@ -88,4 +88,4 @@ read var_year
 sudo swapon /swapfile
 echo Nyomj entert a folytatáshoz Ez lesz: sudo swapon –show
 read var_year
-sudo swapon "–show"
+sudo swapon –show
