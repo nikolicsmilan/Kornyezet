@@ -61,7 +61,7 @@ sudo curl -L "https://github.com/docker/compose/releases/download/1.25.0/docker-
 echo  Ez lesz:sudo chmod +x /usr/local/bin/docker-compose 
 read var_year
 sudo chmod +x /usr/local/bin/docker-compose
-echo Nyomj entert a folytatáshoz Ez lesz: docker-compose –version
+echo Ez lesz: docker-compose \–version
 read var_year
 docker-compose –version
 echo  Ez lesz:mkdir projects
@@ -70,7 +70,7 @@ mkdir projects
 echo  Ez lesz: cd /projects
 read var_year
 cd /projects
-echo Ez lesz: sudo fallocate -l 2G /swapfile
+echo Ez lesz: sudo fallocate \-l 2G /swapfile
 read var_year
 sudo fallocate -l 2G /swapfile
 echo  Ez lesz: sudo chmod 600 /swapfile
@@ -82,7 +82,7 @@ sudo mkswap /swapfile
 echo  Ez lesz: sudo swapon /swapfile
 read var_year
 sudo swapon /swapfile
-echo  Ez lesz: sudo swapon –show
+echo  Ez lesz: sudo swapon \–show
 read var_year
 sudo swapon –show
 echo Vége a környzet beállításának!
