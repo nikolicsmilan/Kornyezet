@@ -1,1 +1,1 @@
-mv root/Kornyezet/000.default.conf /etc/apache2/sites-available
+mv /root/Kornyezet/000.default.conf /etc/apache2/sites-available
